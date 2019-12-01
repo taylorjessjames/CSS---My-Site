@@ -1,0 +1,280 @@
+a {
+  text-decoration: none;
+  color: #ecf4f3;
+}
+
+body {
+  background-color: #ecf4f3;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 125%;
+  color: #393e46;
+}
+
+h1 {
+  margin: 8px auto 0 auto;
+  font-family: 'Solway', Helvetica, Arial, sans-serif;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Solway', Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  line-height: 0.5;
+
+}
+
+h3 {
+  font-family: 'Solway', Helvetica, Arial, sans-serif;
+  color:#57a99a;
+}
+
+img {
+  width: 100px;
+
+}
+
+p {
+  padding-bottom: 5px;
+}
+
+
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 4%;
+    margin: 100px auto 100px auto;
+
+}
+
+/*---------------------------------- CLASS SELECTORS ------------------------------------------------*/
+.btn {
+  font-family: 'Solway', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.75rem;
+}
+
+.design-development {
+  width:25%;
+  float:left;
+  margin-right: 50px;
+  margin: auto 50px auto inherit ;
+}
+
+.seo-content {
+  width:25%;
+  float:right;
+  margin-left: 50px;
+  margin: auto inherit auto 50px;
+}
+
+  .mailto {
+    width:25%;
+  }
+
+.footer-link {
+  text-decoration: none;
+}
+
+.catch-phrase {
+  font-family: 'Solway', Helvetica, Arial, sans-serif;
+}
+
+.portrait {
+  width: 200px;
+  border-radius: 100%;
+  margin: 100px auto 50px auto;
+}
+
+.top-container {
+  background-color: #70E0DB;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 0;
+  border-bottom: solid 40px #85ef47;
+  height:600px;
+}
+
+.middle-container {
+  background-color: #d1eecc;
+  position: relative;
+  padding: 5px 30px 10px 30px;
+}
+
+.bottom-container {
+  background-color: #57a99a;
+  border-top:solid 30px #85ef47;
+  padding: 30px;
+  font-family: 'Solway', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color:#ecf4f3;
+}
+
+.ufo-img {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  width: 150px;
+}
+
+.android-img {
+  position: absolute;
+  right: 300px;
+  bottom: 0;
+  width: 100px;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.android-img2 {
+  position: absolute;
+  right: 375px;
+  bottom: 0;
+  width: 100px;
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+.android-img3 {
+  position: absolute;
+  right: 225px;
+  bottom: 0;
+  width: 100px;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 100px;
+  bottom: 400px;
+}
+
+.middle-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 500px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin:50px auto 25px auto;
+  text-align: left;
+  width:50%;
+}
+
+.contact-me {
+  width:50%;
+  margin:50px auto 25px auto;
+  line-height: 2;
+}
+
+.profile {
+  width:50%;
+  margin:50px auto 25px auto;
+}
+
+.swift-logo {
+  position: absolute;
+  left: 200px;
+  bottom: 500px;
+  width: 25px;
+}
+
+.social-media {
+  width: 50px;
+}
+
+/* The animation code */
+@keyframes example {
+  0% {
+    bottom: 0;
+  }
+
+  10% {
+    bottom: 5px;
+  }
+
+  15% {
+    bottom: 10px;
+  }
+
+  20% {
+    bottom: 15px;
+  }
+
+  25% {
+    bottom: 10px;
+  }
+
+  30% {
+    bottom: 5px;
+  }
+
+  35% {
+    bottom: 0;
+  }
+
+  40% {
+    bottom: 5px;
+  }
+
+  45% {
+    bottom: 10px;
+  }
+
+  50% {
+    bottom: 15px;
+  }
+
+  55% {
+    bottom: 10px;
+  }
+
+  60% {
+    bottom: 5px;
+  }
+
+  65% {
+    bottom: 0;
+  }
+
+  70% {
+    bottom: 5px;
+  }
+
+  75% {
+    bottom: 10px;
+  }
+
+  80% {
+    bottom: 15px;
+  }
+
+  85% {
+    bottom: 10px;
+  }
+
+  90% {
+    bottom: 5px;
+  }
+
+  95% {
+    bottom: 2px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
